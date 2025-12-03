@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Energieprijs Niveau",
+        "description": "Configureer de Energieprijs Niveau sensor",
+        "data": {
+          "source_sensor": "Bron prijssensor"
+        }
+      }
+    },
+    "error": {
+      "sensor_not_found": "De geselecteerde sensor is niet gevonden"
+    },
+    "abort": {
+      "already_configured": "Deze sensor is al geconfigureerd"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "price_level": {
+        "name": "Prijsniveau",
+        "state": {
+          "zeer_goedkoop": "Zeer Goedkoop",
+          "goedkoop": "Goedkoop",
+          "normaal": "Normaal",
+          "duur": "Duur",
+          "zeer_duur": "Zeer Duur"
+        }
+      }
+    }
+  }
+}

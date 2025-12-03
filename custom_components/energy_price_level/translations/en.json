@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Energy Price Level",
+        "description": "Configure the Energy Price Level sensor",
+        "data": {
+          "source_sensor": "Source price sensor"
+        }
+      }
+    },
+    "error": {
+      "sensor_not_found": "The selected sensor was not found"
+    },
+    "abort": {
+      "already_configured": "This sensor is already configured"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "price_level": {
+        "name": "Price Level",
+        "state": {
+          "zeer_goedkoop": "Very Cheap",
+          "goedkoop": "Cheap",
+          "normaal": "Normal",
+          "duur": "Expensive",
+          "zeer_duur": "Very Expensive"
+        }
+      }
+    }
+  }
+}

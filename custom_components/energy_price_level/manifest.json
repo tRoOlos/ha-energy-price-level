@@ -1,0 +1,12 @@
+{
+  "domain": "energy_price_level",
+  "name": "Energy Price Level",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/yourusername/ha-energy-price-level",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/yourusername/ha-energy-price-level/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
