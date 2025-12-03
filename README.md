@@ -46,7 +46,7 @@ The integration works as follows:
 2. Ga naar "Integrations"
 3. Klik op de drie puntjes rechtsboven
 4. Selecteer "Custom repositories"
-5. Voeg deze repository toe: `https://github.com/yourusername/ha-energy-price-level`
+5. Voeg deze repository toe: `https://github.com/tRoOlos/ha-energy-price-level`
 6. Categorie: Integration
 7. Klik op "Download"
 8. Herstart Home Assistant

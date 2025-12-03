@@ -4,9 +4,9 @@
   "codeowners": [],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/yourusername/ha-energy-price-level",
+  "documentation": "https://github.com/tRoOlos/ha-energy-price-level",
   "iot_class": "calculated",
-  "issue_tracker": "https://github.com/yourusername/ha-energy-price-level/issues",
+  "issue_tracker": "https://github.com/tRoOlos/ha-energy-price-level/issues",
   "requirements": [],
   "version": "1.0.0"
 }
