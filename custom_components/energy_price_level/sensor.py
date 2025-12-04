@@ -45,6 +45,9 @@ class EnergyPriceLevelSensor(RestoreEntity, SensorEntity):
 
     _attr_has_entity_name = True
     _attr_translation_key = "price_level"
+    _attr_device_class = None
+    _attr_state_class = None
+    _attr_suggested_display_precision = None
 
     def __init__(self, hass: HomeAssistant, source_sensor: str, entry_id: str) -> None:
         """Initialize the sensor."""
